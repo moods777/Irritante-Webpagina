@@ -1,0 +1,463 @@
+@media screen and (max-width: 550px)
+
+{
+    body
+    {
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vh;
+    }
+
+    #grid-left
+    {
+        display: grid;
+        grid-template-columns: 10vw 10vw 20vw 2.5vw 20vw 10vw 11vw 16.5vw;
+        grid-template-rows: 15vh 10vh 2.5vh 10vh 2.5vh 10vh 2.5vh 10vh 15vh 4vh 18.5vh;
+    }
+
+    #grid-right
+    {
+        display: grid;
+        grid-template-columns: 20vw 60vw 20vw;
+        grid-template-rows: 7.5vh 85vh 7.5vw;
+        justify-items: center;
+    }
+
+    #cup-logo
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        height: 10vh;
+    }
+
+    #header-1
+    {
+        grid-column: 2 / 8;
+        grid-row: 4 / 5;
+    }
+
+    #paragraph-1
+    {
+        font-size: 16px;
+        grid-column: 2 / 8;
+        grid-row: 6 / 7;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    #paragraph-2
+    {
+        grid-column: 2 / 8;
+        grid-row: 10 / 11;
+        font-size: 15px;
+    }
+    
+    #button-1
+    {
+        grid-column: 2 / 4;
+        grid-row: 8 / 9;
+        width: 30vw;
+    }
+
+    #button-2
+    {
+        grid-column: 5 / 7;
+        grid-row: 8 / 9;
+        width: 30vw;
+    }
+
+    #iphone
+    {
+        grid-area: 2 / 2 / 3 / 3;
+        width: 60vw;
+        height: 85vh;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 550px) and (max-width: 695px )
+
+{
+    body
+    {
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vh;
+    }
+
+    #grid-left
+    {
+        display: grid;
+        grid-template-columns: 10vw 10vw 15vw 2.5vw 25vw 20vw 10.5vw 7vw;
+        grid-template-rows: 17.5vh 10vh 2.5vh 10vh 2.5vh 10vh 2.5vh 10vh 15vh 5vh 15vh;
+
+    }
+
+    #grid-right
+    {
+        display: grid;
+        grid-template-columns: 21vw 58vw 21vw;
+        grid-template-rows: 2.5vh 95vh 2.5vh;
+        justify-items: center;
+    }
+
+    #cup-logo
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        height: 10vh;
+    }
+
+    #header-1
+    {
+        grid-column: 2 / 6;
+        grid-row: 4 / 5;
+    }
+
+    #paragraph-1
+    {
+        grid-column: 2 / 7;
+        grid-row: 6 / 7;
+        font-size: 17px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    #button-1
+    {
+        grid-column: 2 / 4;
+        grid-row: 8 / 9;
+        width: 25vw;
+    }
+
+    #button-2
+    {
+        grid-column: 5 / 6;
+        grid-row: 8 / 9;
+        width: 25vw;
+    }
+
+    #paragraph-2
+    {
+        grid-column: 2 / 7;
+        grid-row: 10 / 11;
+        font-size: 16px;
+    }
+
+    #iphone
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 19;
+        width: 55vw;
+        height: 95vh;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 695px) and (max-width: 845px)
+
+{
+    body
+    {
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vh;
+    }
+
+    #grid-left
+    {
+        grid-template-columns: 10vw 5vw 15vw 2vw 20vw 15.5vw 15vw 17.5vw;
+        grid-template-rows: 15vh 10vh 1.5vh 10vh 2.5vh 10vh 2vh 10vh 15vh 5vh 19vh;
+    }
+
+    #grid-right
+    {
+        grid-template-columns: 26.5vw 47vw 26.5vw;
+        grid-template-rows: 2.5vh 95vh 2.5vh ;
+        justify-items: center;
+    }
+
+    #cup-logo
+    {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #header-1
+    {
+        grid-area: 4 / 2 / 5 / 7;
+        font-size: 30px;
+    }
+
+    #paragraph-1
+    {
+        grid-area: 6 / 2 / 7 / 7;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #button-1
+    {
+        grid-area: 8 / 2 / 9 / 4;
+        width: 20vw;
+    }
+
+    #button-2
+    {
+        grid-area: 8 / 5 / 9 / 6;
+        width: 20vw;
+    }
+
+    #paragraph-2
+    {
+        grid-area: 10 / 2 / 11 / 8;
+        font-size: 16px;
+    }
+
+    #iphone
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 20;
+        height: 95vh;
+        width: 47vw;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 845px) and (max-width: 1000px)
+
+{
+    body
+    {
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vh;
+    }
+
+    #grid-left
+    {
+        grid-template-columns: 10vw 5vw 15vw 2vw 20vw 10.5vw 20vw 17.5vw;
+        grid-template-rows: 15vh 10vh 2.5vh 10vh 2.5vh 9vh 2vh 10vh 18vh 5vh 16vh;
+    }
+
+    #grid-right
+    {
+        grid-template-columns: 30.5vw 39vw 30.5vw;
+        grid-template-rows: 2.5vh 95vh 2.5vh ;
+        justify-items: center;
+    }
+
+    #cup-logo
+    {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #header-1
+    {
+        grid-area: 4 / 2 / 5 / 6;
+        font-size: 33px;
+    }
+
+    #paragraph-1
+    {
+        grid-area: 6 / 2 / 7 / 7;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    #button-1
+    {
+        grid-area: 8 / 2 / 9 / 4;
+        width: 20vw;
+    }
+
+    #button-2
+    {
+        grid-area: 8 / 5 / 9 / 6;
+        width: 20vw;
+    }
+
+    #paragraph-2
+    {
+        grid-area: 10 / 2 / 11 / 8;
+        font-size: 17px;
+    }
+
+    #iphone
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 20;
+        height: 95vh;
+        width: 39vw;
+    }    
+
+}
+
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1150px)
+
+{
+    body
+    {
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100vh;
+    }
+
+    #grid-left
+    {
+        grid-template-columns: 5vw 5vw 10vw 1.5vw 15vw 3vw 3.5vw 3.5vw 3.5vw;
+        grid-template-rows: 21vh 10vh 1.5vh 10vh 2.5vh 9vh 1.5vh 8.5vh 13vh 4vh 19vh;
+    }
+
+    #grid-right
+    {
+        grid-template-columns: 10vw 30vw 10vw;
+        grid-template-rows: 7.5vh 85vh 7.5vh;
+        justify-items: center;
+    }
+
+    #cup-logo
+    {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #header-1
+    {
+        grid-area: 4 / 2 / 5 / 7;
+        font-size: 30px;
+    }
+
+    #paragraph-1
+    {
+        grid-column: 2 / 8;
+        grid-row: 6 / 7;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #button-1
+    {
+        grid-area: 8 / 2 / 16 / 4;
+        width: 15vw;
+    }
+
+    #button-2
+    {
+        grid-area: 8 / 5 / 16 / 7;
+        width: 15vw;
+    }
+
+    #paragraph-2
+    {
+        grid-area: 10 / 2 / 11 / 8;
+        font-size: 15px;
+    }
+
+    #iphone
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        height: 85vh;
+        width: 30vw;
+    }    
+
+}
+
+
+
+
+
+@media screen and (min-width: 1150px) and (max-width: 1325px)
+
+{
+    body
+    {
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100vh;
+    }
+    
+    #grid-left
+    {
+        display: grid;
+        grid-template-columns: 5vw 5vw 10vw 1.5vw 15vw 3vw 2.5vw 4.5vw 3.5vw;
+        grid-template-rows: 20vh 10vh 1.5vh 10vh 2.5vh 10vh 2.5vh 9vh 13vh 5vh 16.5vh;
+    }
+
+    #grid-right
+    {
+        display: grid;
+        grid-template-columns: 12.5vw 25vw 12.5vw;
+        grid-template-rows: 5vh 90vh 5vh;
+        justify-items: center
+    }
+
+    #cup-logo
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    #header-1
+    {
+        grid-column: 2 / 6;
+        grid-row: 4 / 5;
+    }
+
+    #paragraph-1
+    {
+        grid-column: 2 / 8;
+        grid-row: 6 / 7;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: italic;
+
+    }
+
+    #button-1
+    {
+        grid-column: 2 / 4;
+        grid-row: 8 / 9;
+        width: 15vw;
+    }
+
+    #button-2
+    {
+        grid-column: 5 / 6;
+        grid-row: 8 / 9;
+        width: 15vw;
+    }
+
+    #paragraph-2
+    {
+        grid-column: 2 / 8;
+        grid-row: 10 / 11;
+    }
+
+    #iphone
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 25vw;
+        height: 90vh;
+    }
+
+}
